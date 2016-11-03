@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.learn.recyclerview1;
+package id.sch.smktelkom_mlg.learn.recyclerview2;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -10,12 +10,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.learn.recyclerview1.adapter.HotelAdapter;
-import id.sch.smktelkom_mlg.learn.recyclerview1.model.Hotel;
+import id.sch.smktelkom_mlg.learn.recyclerview2.adapter.HotelAdapter;
+import id.sch.smktelkom_mlg.learn.recyclerview2.model.Hotel;
 
 public class MainActivity extends AppCompatActivity {
     ArrayList<Hotel> mList = new ArrayList<>();
